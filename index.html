@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Arc en Ciel - Hôtel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Résidence Arc en Ciel</h1>
+        <p>Hébergement & Restauration - Dieppe, Normandie</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Chambres</a></li>
+            <li><a href="#">Réservation</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Nos Chambres</h2>
+            <ul>
+                <li>Chambre Simple - 105€</li>
+                <li>Chambre Double - 170€</li>
+                <li>Suite - 210€</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Réserver maintenant</h2>
+            <form action="mailto:melenemoline@gmail.com" method="post" enctype="text/plain">
+                <label>Nom : <input type="text" name="nom"></label><br>
+                <label>Email : <input type="email" name="email"></label><br>
+                <label>Type de chambre :
+                    <select name="chambre">
+                        <option value="simple">Simple</option>
+                        <option value="double">Double</option>
+                        <option value="suite">Suite</option>
+                    </select>
+                </label><br>
+                <label>Date d'arrivée : <input type="date" name="arrivee"></label><br>
+                <label>Date de départ : <input type="date" name="depart"></label><br>
+                <input type="submit" value="Réserver">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Contact : melenemoline@gmail.com</p>
+        <p>Adresse : Dieppe, Normandie</p>
+    </footer>
+</body>
+</html>
